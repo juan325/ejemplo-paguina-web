@@ -7,36 +7,6 @@
 			<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 			<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
 
-			<script>
-				
-			</script>
-			<script>
-				 $.datepicker.regional['es'] = {
-					 closeText: 'Cerrar',
-					 prevText: '< Ant',
-					 nextText: 'Sig >',
-					 currentText: 'Hoy',
-					 monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
-					 monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
-					 dayNames: ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'],
-					 dayNamesShort: ['Dom','Lun','Mar','Mie;','Juv','Vie','Sab'],
-					 dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sa'],
-					 weekHeader: 'Sm',
-					 dateFormat: 'dd/mm/yy',
-					 firstDay: 1,
-					 isRTL: false,
-					 showMonthAfterYear: false,
-					 yearSuffix: ''
-				 };
-				
-				$(function () {
-				$.datepicker.setDefaults($.datepicker.regional["es"]);
-				$("#datepicker").datepicker({ firstDay: 1
-				});
-				});
-				
-			</script>
-	
 		</head> 
 		
 		
@@ -77,7 +47,12 @@
 			<br>
 			
 			<h2>CALENDARIO:</h2>
-			<center><div id="datepicker" > </div></center>
+			<center><iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;
+				showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=200&amp;wkst=1&amp;
+				bgcolor=%23FFFFFF&amp;src=f40mf5r9hb9m6952rmp0po027k%40group.calendar.google.com&amp;
+				color=%23691426&amp;ctz=America%2FEl_Salvador" 
+				style="border-width:0" width="300" height="200" frameborder="0" scrolling="no">
+			</iframe></center>
 			
 		</body>
 		
