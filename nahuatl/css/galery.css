@@ -1,0 +1,12 @@
+body{
+	font-family: sans-serif;
+}
+.gallery{
+	text-align: center;
+	color: forestgreen;
+	margin: 30px 0 50px;
+}
+.gallery img{
+	width: 100px;
+	padding: 4px;
+}

@@ -1,0 +1,32 @@
+U {	
+	font-family: Verdana;
+	font-size: 18px;
+	font-style: bold;
+	color: yellow;
+}
+
+H2 { 
+	color: black;
+	font-family: ArialBlack ;
+	text-align: center;
+	white-space: pre-line;
+}
+
+H4{	text-decoration: underline; }
+
+body {	background-color: #999652;}
+
+ol { color: blue; 
+	font-family: algerian; }
+	
+ul { color: black; 
+	font-family: arial; }
+
+
+video{
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+    height: 50%;
+
+}

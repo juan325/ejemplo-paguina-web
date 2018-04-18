@@ -1,0 +1,84 @@
+ <html >
+		<head>
+			<title>  menu_Eventos </title>
+			<link rel="stylesheet" type="text/css" href= "css\estilos.css" />
+			
+			<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+			<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+			<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+
+			<script>
+				
+			</script>
+			<script>
+				 $.datepicker.regional['es'] = {
+					 closeText: 'Cerrar',
+					 prevText: '< Ant',
+					 nextText: 'Sig >',
+					 currentText: 'Hoy',
+					 monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+					 monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+					 dayNames: ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'],
+					 dayNamesShort: ['Dom','Lun','Mar','Mie;','Juv','Vie','Sab'],
+					 dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sa'],
+					 weekHeader: 'Sm',
+					 dateFormat: 'dd/mm/yy',
+					 firstDay: 1,
+					 isRTL: false,
+					 showMonthAfterYear: false,
+					 yearSuffix: ''
+				 };
+				
+				$(function () {
+				$.datepicker.setDefaults($.datepicker.regional["es"]);
+				$("#datepicker").datepicker({ firstDay: 1
+				});
+				});
+				
+			</script>
+	
+		</head> 
+		
+		
+		<body>
+			<center>
+				<a HREF="inicio.html" TARGET="principal"><h2> INICIO </h2></a>
+			</center>
+			<h2>OPCIONES</h2>
+			<ol type="I">
+			   <li>eventos</li>
+					<ul type="circle">
+						<li>2017</li>
+							<ul type="square">
+								<li><a HREF="actividades1.html" TARGET="principal"> 5 SEPTIEMBRE </a><br></li>
+								<li><a HREF="actividades2.html" TARGET="principal"> 14 AGOSTO </a><br></li>
+							</ul>
+						<li>2018</li>
+							<ul type="square">
+								<li><a HREF="actividades3.html" TARGET="principal"> 14 MARZO </a><br></li>
+							</ul>
+					</ul>
+			   <li>galerias</li>
+					<ul type="circle">
+					   <li><a HREF="fotos.html" TARGET="principal">fotos</a></li>
+					   <li><a HREF="videos.html" TARGET="principal">videos</a></li>
+					</ul>
+			   <li>historia</li>
+				   <ul type="circle">
+					   <li><a HREF="origen.html" TARGET="principal">origen</a></li>
+					   <li>hablantes y originarios</li>
+					   <li>himno nacional</li>
+					</ul>
+			   <li>diccionario</li>
+					<ul type="circle">
+					   <li><a HREF="Diccionario.html" TARGET="principal"> Diccionario </a></li>
+					</ul>
+			</ol>
+			<br>
+			
+			<h2>CALENDARIO:</h2>
+			<center><div id="datepicker" > </div></center>
+			
+		</body>
+		
+ </html>
