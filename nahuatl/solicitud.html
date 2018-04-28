@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>
+		formulario
+		</title>
+		<link rel="stylesheet" type="text/css" href= "css\estilos.css" />
+	</head>
+	<body>
+		<form method="POST" action="php/SOLICITUD.php">
+		
+			<h3>formulario de paricipacion en actividad:</h3>
+			<table>
+				<tr>
+					<td>NOMBRE: </td>
+					<td> <input type="text" name="txtNombre" size="20"></td>
+				</tr>
+				<tr>
+					<td>SEXO:</td>
+					<td> <input type="RADIO" name="radsex" VALUE="M">Masculino</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="RADIO" name="radsex" VALUE="F">Femenino</td>
+				</tr>
+				<tr>
+					<td>evento a participar:</td>
+					<td>
+						<select name="cmbEvento" >
+							<option value="5-09">5 de septiembre
+							<option value="14-08">14 de agosto
+							<option value="14-03">14 de marzo
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Numero de telefono:</td>
+					<td><input type="text" name="txtCel" size="8"></td>
+				</tr>
+			</table>
+			<br>
+			
+			<input type="Submit" value="ENVIAR">
+		</form>
+	</body>
+</html>
